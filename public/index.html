@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pollster</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="images/pollster.jpg" alt="Pollster Logo" />
+    </header>
+
+    <section class="grid">
+      <!-- Q1 -->
+      <div class="card">
+        <img src="images/eternal.jpg" alt="" />
+        <p class="question">
+          They say if you make it to 2050 you'll live forever. Would you want
+          to?
+        </p>
+        <input type="text" name="q1" placeholder="Yes or No" />
+      </div>
+
+      <!-- Q2 -->
+      <div class="card">
+        <img src="images/euthanasia.jpg" alt="" />
+        <p class="question">Would you vote in favor of voluntary euthanasia?</p>
+        <input type="text" name="q2p1" placeholder="Yes or No" />
+
+        <p class="question" style="margin-top: 0.5rem">
+          At what age? (only if Yes)
+        </p>
+        <input type="number" name="q2p2" placeholder="Enter age" disabled />
+      </div>
+
+      <!-- Q3 -->
+      <div class="card">
+        <img src="images/supper.jpg" alt="" />
+        <p class="question">Name 5 items you'd choose for your last meal.</p>
+        <input type="text" name="q3" placeholder="List items" />
+      </div>
+
+      <!-- Q4 -->
+      <div class="card">
+        <img src="images/pres.jpg" alt="" />
+        <p class="question">
+          If you could vote for anyone as a fantasy president, who would it be?
+        </p>
+        <input type="text" name="q4" placeholder="Name" />
+      </div>
+    </section>
+
+    <!-- BONUS ROUND -->
+    <section class="bonus">
+      <img src="images/bonus.jpg" alt="Bonus Round" />
+    </section>
+
+    <!-- FINAL QUESTION -->
+    <section class="final-card">
+      <img src="images/equal.jpg" alt="" />
+      <p class="question">
+        Do you think it would be fair to redistribute the world’s wealth evenly
+        among everyone on earth?
+      </p>
+      <input type="text" name="q5" placeholder="Yes or No" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
