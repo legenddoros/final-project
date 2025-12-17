@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-- Include a link to the live version of the project hosted on Render.
+- [https://final-project-b4sm.onrender.com](https://final-project-b4sm.onrender.com)
 
 ## Project Overview
 
@@ -15,9 +15,9 @@
 ## Technologies Used
 
 - List the technologies and tools used in the project:
-    - **Languages**: HTML, CSS, JavaScript
-    - **Libraries**: (e.g., GSAP for animations)
-    - **Other**: Figma for design, Adobe Illustrator for illustrations, OpenAI for A.I. generated assets, etc.
+  - **Languages**: HTML, CSS, JavaScript
+  - **Libraries**: (e.g., GSAP for animations)
+  - **Other**: Figma for design, Adobe Illustrator for illustrations, OpenAI for A.I. generated assets, etc.
 
 ## Credits
 
